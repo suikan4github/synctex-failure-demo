@@ -40,11 +40,11 @@ You can also see the problem with the pre-build main.pdf and main.synctex.gz in 
 File name       | Description
 ----------------|------------------
 main.tex        | Main source of LaTeX.
-fox.tex         | Sub source of LaTeX.
+rain.tex        | Chapter 1.
+fox.tex         | Chapter 2.
 fig.png         | demo figure.
 main.pdf        | pre-build PDF for demo. 
 main.synctex.gz | pre-build synctex file for demo. 
-
 
 
 
