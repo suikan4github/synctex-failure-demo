@@ -4,7 +4,7 @@ Demonstration of the SyncTex failure on TeX Live 2024
 # Details
 This is a demonstration of SyncTeX failure of TeX Live 2024. 
 
-With this small document, you can see the chapter 2 "Fox" is unable to link with LaTeX source for both forward and backward. 
+You can build the a main.pdf file from the main.tex and fox.tex. Then, you can see the chapter 2 "Fox" is unable to link with LaTeX source for both forward and backward. 
 
 This problem was found when I switched from pLaTeX to LuaLaTeX. The original problem was found in a large document bigger than 100pages. 
 
@@ -29,6 +29,7 @@ This demonstration is shrank from that document.
 
 command line : 
 ```bash
+lualatex -synctex=1 main.tex
 ```
 # Contents of this repository 
 File name       | Description
